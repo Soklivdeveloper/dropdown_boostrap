@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container-fluid bg-body-secondary py-2 position-sticky top-0 z-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img class="img-fluid" src="img/logo-light.svg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto fs-6 gap-2">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bg-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Listings
+                    </a>
+                    <!-- ----my-drop----- -->
+                    <ul class="dropdown-menu position-absolute p-0 bg-body-secondary mt-3">
+                      <div class="my-dropdown px-3">
+                        <li class="nav-item position-relative"><a class="nav-link d-flex justify-content-between align-items-center position-relative" href="#">Hotel <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                        <ul class="navbar-nav">
+                          <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                            <li class="nav-item"><a href="" class="nav-link">Hotel</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Hotel Booking</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Resort Hotel </a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Hotel Detail</a></li>
+                          <li class="nav-item"><a href="" class="nav-link">Hotel chain </a></li>
+                          <li class="nav-item"><a href="" class="nav-link">Hotel Rest</a></li>
+                        </div>
+                        </ul>
+                      </li>
+                        <li class="position-relative nav-item"><a class="nav-link d-flex justify-content-between align-items-center" href="#">Flight<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                          <ul class="navbar-nav">
+                            <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                              <li class="nav-item"><a href="" class="nav-link">Flight Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Flight Detail</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Flight Booking </a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Flight list</a></li>
+                          </div>
+                          </ul>
+                        </li>
+                        <li class="position-relative nav-item"><a class="nav-link d-flex justify-content-between align-items-center" href="#">Tour<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                          <ul class="navbar-nav">
+                            <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                              <li class="nav-item"><a href="" class="nav-link">Tour Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Tour Detail</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Tour Booking </a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Tour list</a></li>
+                          </div>
+                          </ul>
+                        </li>
+                        <li class="position-relative nav-item"><a class="nav-link d-flex justify-content-between align-items-center" href="#">Cap<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                          <ul class="navbar-nav">
+                            <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                              <li class="nav-item"><a href="" class="nav-link">Cap Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Cap Detail</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Cap Booking </a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Cap list</a></li>
+                          </div>
+                          </ul>
+                        </li>
+                        <li class="position-relative nav-item"><a class="nav-link d-flex justify-content-between align-items-center" href="#">Directory<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                          <ul class="navbar-nav">
+                            <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                              <li class="nav-item"><a href="" class="nav-link">Directory Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Directory Detail</a></li>
+                          </div>
+                          </ul>
+                        </li>
+                        <li class="position-relative nav-item"><a class="nav-link d-flex justify-content-between align-items-center" href="#">Add Listing<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                          <ul class="navbar-nav">
+                            <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                              <li class="nav-item"><a href="" class="nav-link">Join As</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Add Listing</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Add Listing Minimal </a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Listing Adds</a></li>
+                          </div>
+                          </ul>
+                        </li>
+                        <li class="position-relative nav-item"><a class="nav-link d-flex justify-content-between align-items-center" href="#">Hero<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                          <ul class="navbar-nav">
+                            <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                              <li class="nav-item"><a href="" class="nav-link">Flight Home</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Flight Detail</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Flight Booking </a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Flight list</a></li>
+                          </div>
+                          </ul>
+                        </li>
+
+                        <!-- <li><hr class="dropdown-divider"></li> -->
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                      </div>
+                    </ul>  
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <!-- ----my-drop----- -->
+                    <ul class="dropdown-menu position-absolute p-0 bg-body-secondary mt-3">
+                      <div class="my-dropdown px-3">
+                        <li><a class="nav-link" href="#">about</a></li>  
+                        <li><a class="nav-link" href="#">Contact</a></li>  
+                        <li><a class="nav-link" href="#">Contact2</a></li>  
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                        <li class="nav-item position-relative"><a class="nav-link d-flex justify-content-between align-items-center position-relative" href="#">Authentication <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                        <ul class="navbar-nav">
+                          <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                            <li class="nav-item"><a href="" class="nav-link">Sign In</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Sign UP</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Forgot Password </a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Tow Factor Authentication</a></li>
+                        </div>
+                        </ul>
+                      </li>
+                        <li class="position-relative nav-item"><a class="nav-link d-flex justify-content-between align-items-center" href="#">Blog<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                          <ul class="navbar-nav">
+                            <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                              <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Blog Detial</a></li>
+                          </div>
+                          </ul>
+                        </li>
+                        <li class="position-relative nav-item"><a class="nav-link d-flex justify-content-between align-items-center" href="#">Help<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                          <ul class="navbar-nav">
+                            <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                              <li class="nav-item"><a href="" class="nav-link">Help Center</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Help Detial</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Privecy Polocy </a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Team Of Service</a></li>
+                          </div>
+                          </ul>
+                        </li>
+                        <!-- <li><hr class="dropdown-divider"></li> -->
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                      </div>
+                    </ul>  
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Account
+                    </a>
+                    <!-- ----my-drop----- -->
+                    <ul class="dropdown-menu position-absolute p-0 bg-body-secondary mt-3">
+                      <div class="my-dropdown px-3">
+                        <li class="nav-item position-relative"><a class="nav-link d-flex justify-content-between align-items-center position-relative" href="#">User Profile <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                        <ul class="navbar-nav">
+                          <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                            <li class="nav-item"><a href="" class="nav-link">Dashboard</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Listings</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Activitive </a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Earnings</a></li>
+                          <li class="nav-item"><a href="" class="nav-link">Reviews </a></li>
+                          <li class="nav-item"><a href="" class="nav-link">Sitting</a></li>
+                        </div>
+                        </ul>
+                      </li>
+                        <li class="position-relative nav-item"><a class="nav-link d-flex justify-content-between align-items-center" href="#">Agent Dashboard<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></a>
+                          <ul class="navbar-nav">
+                            <div class="sub-dropdown position-absolute px-4 py-3 bg-info rounded-3">
+                              <li class="nav-item"><a href="" class="nav-link">Dashboard</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Listings</a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Activitive </a></li>
+                              <li class="nav-item"><a href="" class="nav-link">Earnings</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Reviews </a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Sitting</a></li>
+                          </div>
+                          </ul>
+                        </li>
+                        <!-- <li><hr class="dropdown-divider"></li> -->
+                        <li><a class="nav-link" href="#">Master Admin</a></li>  
+                      </div>
+                    </ul>  
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                      </svg>
+                    </a>
+                    <ul class="dropdown-menu fs-6 px-2 py-3">
+                      <div class="my-dropdown ">
+                        <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-text text-danger" viewBox="0 0 16 16">
+                          <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                          <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                        </svg> Support</a></li>
+                        <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-fan text-secondary" viewBox="0 0 16 16">
+                          <path d="M10 3c0 1.313-.304 2.508-.8 3.4a1.991 1.991 0 0 0-1.484-.38c-.28-.982-.91-2.04-1.838-2.969a8.368 8.368 0 0 0-.491-.454A5.976 5.976 0 0 1 8 2c.691 0 1.355.117 1.973.332.018.219.027.442.027.668Zm0 5c0 .073-.004.146-.012.217 1.018-.019 2.2-.353 3.331-1.006a8.39 8.39 0 0 0 .57-.361 6.004 6.004 0 0 0-2.53-3.823 9.02 9.02 0 0 1-.145.64c-.34 1.269-.944 2.346-1.656 3.079.277.343.442.78.442 1.254Zm-.137.728a2.007 2.007 0 0 1-1.07 1.109c.525.87 1.405 1.725 2.535 2.377.2.116.402.222.605.317a5.986 5.986 0 0 0 2.053-4.111c-.208.073-.421.14-.641.199-1.264.339-2.493.356-3.482.11ZM8 10c-.45 0-.866-.149-1.2-.4-.494.89-.796 2.082-.796 3.391 0 .23.01.457.027.678A5.99 5.99 0 0 0 8 14c.94 0 1.83-.216 2.623-.602a8.359 8.359 0 0 1-.497-.458c-.925-.926-1.555-1.981-1.836-2.96-.094.013-.191.02-.29.02ZM6 8c0-.08.005-.16.014-.239-1.02.017-2.205.351-3.34 1.007a8.366 8.366 0 0 0-.568.359 6.003 6.003 0 0 0 2.525 3.839 8.37 8.37 0 0 1 .148-.653c.34-1.267.94-2.342 1.65-3.075A1.988 1.988 0 0 1 6 8Zm-3.347-.632c1.267-.34 2.498-.355 3.488-.107.196-.494.583-.89 1.07-1.1-.524-.874-1.406-1.733-2.541-2.388a8.363 8.363 0 0 0-.594-.312 5.987 5.987 0 0 0-2.06 4.106c.206-.074.418-.14.637-.199ZM8 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/>
+                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14Zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16Z"/>
+                        </svg> Documentation</a></li>
+                        <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-toggle-off text-primary" viewBox="0 0 16 16">
+                          <path d="M11 4a4 4 0 0 1 0 8H8a4.992 4.992 0 0 0 2-4 4.992 4.992 0 0 0-2-4h3zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5z"/>
+                        </svg> RLT demo</a></li>  
+                        <li><a class="dropdown-item " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-journal-check text-warning" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                          <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                          <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                        </svg> Buy Booking!</a></li>
+                        <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-puzzle-fill text-success" viewBox="0 0 16 16">
+                          <path d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.459.459 0 0 0-.115.118.113.113 0 0 0-.012.025L6.5 4.5v.003l.003.01c.004.01.014.028.036.053a.86.86 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.86.86 0 0 0 .271-.194.213.213 0 0 0 .036-.054l.003-.01v-.008a.112.112 0 0 0-.012-.025.459.459 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.459.459 0 0 0 .115-.118.113.113 0 0 0 .012-.025L9.5 11.5v-.003l-.003-.01a.214.214 0 0 0-.036-.053.859.859 0 0 0-.27-.194C8.91 11.1 8.49 11 8 11c-.491 0-.912.1-1.19.24a.859.859 0 0 0-.271.194.214.214 0 0 0-.036.054l-.003.01v.002l.001.006a.113.113 0 0 0 .012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238l-.244-2.855z"/>
+                        </svg> Components</a></li>
+                      </div>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="navbar-nav">
+                  <li class="nav-itme"><a href="" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                  </svg></a></li>
+                  <li class="nav-itme"><a href="" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                      <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                    </svg>
+                  </a></li>
+                  <li class="nav-itme"><a href="" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                  </a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid ">
+    <h1 class="text-center display-3 p-4">Featured Hotels</h1>
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3"><!-- Button trigger modal -->
+          <button type="button" class="btn p-0 rounded-4 overflow-hidden w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="my-card position-relative">
+              <div class="my-country position-absolute bg-black rounded-3 z-1">
+                <h6 class="text-white px-2">@Losanjeles</h6>
+              </div>  
+              <div class="card">
+              <div class="my-img rounded-4 overflow-hidden">
+                <img class="img-fluid" src="img/01.jpg" class="card-img-top" alt="">
+              </div>
+                <div class="card-body text-start px-3 py-4">
+                  <h4>Baga Comfort</h4>
+                  <div class="box-text w-100 d-flex justify-content-between ">
+                    <span><h6 class="fw-light text-danger">p$455/starting at</h6></span><span ><h6 class="d-flex align-items-center">4.5 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-star-fill " viewBox="0 0 16 16">
+                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg></h6></span>
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </button>          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="my-slide">
+                                <img class="" src="img/11.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="my-slide">
+                                <img class="" src="img/13.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="my-slide">
+                                <img class="" src="img/12.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>      
+                      </div>
+                    </div>
+                    <div class="row mt-3 g-3">
+                      <div class="col-12 col-lg-6">
+                        <div class="my-form px-4 ">
+                          <h4 class="py-3">Get in toch</h4>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">fullname</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Username</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <input class="btn btn-primary float-start my-2" type="submit" value="send">
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <div class="my-map bg-body-secondary w-100 h-100">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7185319706473!2d104.88750717461284!3d11.572024244016117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519e0c9b2109%3A0x8b8d35d80b920ffc!2sANT%20Technology%20Training%20School!5e0!3m2!1sen!2skh!4v1700147663673!5m2!1sen!2skh" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3"><!-- Button trigger modal -->
+          <button type="button" class="btn p-0 rounded-4 overflow-hidden w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="my-card position-relative">
+              <div class="my-country position-absolute bg-black rounded-3 z-1">
+                <h6 class="text-white px-2">@Losanjeles</h6>
+              </div>  
+              <div class="card " >
+              <div class="my-img rounded-4 overflow-hidden">
+                <img class="img-fluid" src="img/02.jpg" class="card-img-top" alt="">
+              </div>
+                <div class="card-body text-start px-3 py-4">
+                  <h4>Baga Comfort</h4>
+                  <div class="box-text w-100 d-flex justify-content-between ">
+                    <span><h6 class="fw-light text-danger">p$455/starting at</h6></span><span ><h6 class="d-flex align-items-center">4.5 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-star-fill " viewBox="0 0 16 16">
+                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg></h6></span>
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </button>          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="my-slide">
+                                <img class="" src="img/11.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="my-slide">
+                                <img class="" src="img/13.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="my-slide">
+                                <img class="" src="img/12.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>      
+                      </div>
+                    </div>
+                    <div class="row mt-3 g-3">
+                      <div class="col-12 col-lg-6">
+                        <div class="my-form px-4 ">
+                          <h4 class="py-3">Get in toch</h4>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">fullname</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Username</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <input class="btn btn-primary float-start my-2" type="submit" value="send">
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <div class="my-map bg-body-secondary w-100 h-100">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7185319706473!2d104.88750717461284!3d11.572024244016117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519e0c9b2109%3A0x8b8d35d80b920ffc!2sANT%20Technology%20Training%20School!5e0!3m2!1sen!2skh!4v1700147663673!5m2!1sen!2skh" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3"><!-- Button trigger modal -->
+          <button type="button" class="btn p-0 rounded-4 overflow-hidden w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="my-card position-relative">
+              <div class="my-country position-absolute bg-black rounded-3 z-1">
+                <h6 class="text-white px-2">@Losanjeles</h6>
+              </div>  
+              <div class="card">
+              <div class="my-img rounded-4 overflow-hidden">
+                <img class="img-fluid" src="img/03.jpg" class="card-img-top" alt="">
+              </div>
+                <div class="card-body text-start px-3 py-4">
+                  <h4>Baga Comfort</h4>
+                  <div class="box-text w-100 d-flex justify-content-between ">
+                    <span><h6 class="fw-light text-danger">p$455/starting at</h6></span><span ><h6 class="d-flex align-items-center">4.5 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-star-fill " viewBox="0 0 16 16">
+                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg></h6></span>
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </button>          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="my-slide">
+                                <img class="" src="img/11.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="my-slide">
+                                <img class="" src="img/13.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="my-slide">
+                                <img class="" src="img/12.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>      
+                      </div>
+                    </div>
+                    <div class="row mt-3 g-3">
+                      <div class="col-12 col-lg-6">
+                        <div class="my-form px-4 ">
+                          <h4 class="py-3">Get in toch</h4>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">fullname</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Username</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <input class="btn btn-primary float-start my-2" type="submit" value="send">
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <div class="my-map bg-body-secondary w-100 h-100">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7185319706473!2d104.88750717461284!3d11.572024244016117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519e0c9b2109%3A0x8b8d35d80b920ffc!2sANT%20Technology%20Training%20School!5e0!3m2!1sen!2skh!4v1700147663673!5m2!1sen!2skh" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3"><!-- Button trigger modal -->
+          <button type="button" class="btn p-0 rounded-4 overflow-hidden w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="my-card position-relative">
+              <div class="my-country position-absolute bg-black rounded-3 z-1">
+                <h6 class="text-white px-2">@Losanjeles</h6>
+              </div>  
+              <div class="card"  >
+              <div class="my-img rounded-4 overflow-hidden">
+                <img class="img-fluid" src="img/04.jpg" class="card-img-top" alt="">
+              </div>
+                <div class="card-body text-start px-3 py-4">
+                  <h4>Baga Comfort</h4>
+                  <div class="box-text w-100 d-flex justify-content-between ">
+                    <span><h6 class="fw-light text-danger">p$455/starting at</h6></span><span ><h6 class="d-flex align-items-center">4.5 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-star-fill " viewBox="0 0 16 16">
+                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg></h6></span>
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </button>          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="my-slide">
+                                <img class="" src="img/11.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="my-slide">
+                                <img class="" src="img/13.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="my-slide">
+                                <img class="" src="img/12.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>      
+                      </div>
+                    </div>
+                    <div class="row mt-3 g-3">
+                      <div class="col-12 col-lg-6">
+                        <div class="my-form px-4 ">
+                          <h4 class="py-3">Get in toch</h4>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">fullname</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Username</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <input class="btn btn-primary float-start my-2" type="submit" value="send">
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <div class="my-map bg-body-secondary w-100 h-100">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7185319706473!2d104.88750717461284!3d11.572024244016117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519e0c9b2109%3A0x8b8d35d80b920ffc!2sANT%20Technology%20Training%20School!5e0!3m2!1sen!2skh!4v1700147663673!5m2!1sen!2skh" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
